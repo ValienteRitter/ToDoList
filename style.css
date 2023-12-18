@@ -1,0 +1,63 @@
+*{
+    box-sizing: border-box;
+}
+
+li:hover{
+    background-color: grey;
+}
+
+html{
+    height: 100%;
+    width: 100%;
+}
+
+body{
+    height: 100%;
+    width: 100%;
+    margin: 0;
+    background:black
+}
+
+.app{
+    height: 100%;
+}
+
+.container {
+    padding-top: 1rem;
+   
+}
+
+ul{
+    border-radius: 2rem;
+    border: 4px solid red;
+    margin: auto;
+    background-color: rgb(238, 191, 4);
+    display: flex;
+    flex-direction: column;
+    align-content: center;
+    justify-content: center;
+    align-items: center;
+    width: 50%;
+}
+
+
+.addNote{
+    background-color: grey;
+    display: flex;
+    justify-content: center;
+    align-content: center;
+    align-items: center;
+    height: 30%;
+    width: 100%;
+    border-bottom: 4px solid red;
+}
+ input{
+    width: 40rem;
+    height: 3rem;
+ }
+
+ button{
+    width: 4rem;
+    height: 3rem;
+    margin-left: 1rem;
+ }
